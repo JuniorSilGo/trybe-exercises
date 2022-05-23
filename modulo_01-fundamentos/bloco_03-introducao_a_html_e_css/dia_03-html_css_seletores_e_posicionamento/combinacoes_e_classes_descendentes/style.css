@@ -21,3 +21,10 @@ li {
 li em{
   font-weight: 1000;
 }
+.linguagens > li:nth-last-child(n + 3){
+  background-color: blue;
+}
+
+#java {
+  background-color: pink;
+}
