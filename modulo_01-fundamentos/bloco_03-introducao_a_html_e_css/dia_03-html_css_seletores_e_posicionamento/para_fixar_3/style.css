@@ -1,0 +1,16 @@
+h1,
+p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: teal;
+}
+
+li:active {
+  font-family: monospace;
+}
+
+.listas {
+  list-style: none;
+}
