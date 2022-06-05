@@ -57,7 +57,7 @@
         */
       // Requisito 1
       const description = document.getElementsByTagName("p");
-      description[1].innerHTML =
+      description[1].innerText =
         "Daqui a dois anos serei um desenvolvedor Web e estarei trabalhando na área.";
 
       // Requisito 2
@@ -67,6 +67,11 @@
       // Requisito 3
       const background1 = document.getElementsByClassName("center-content");
       background1[0].style.background = "white";
+
+      // Requisito 4
+      const title = document.getElementsByTagName('h1');
+      title[0].innerText = 'Exercício 5.1 - JavaScript'
+
     </script>
   </body>
 </html>
